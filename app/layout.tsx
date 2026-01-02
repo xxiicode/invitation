@@ -9,8 +9,18 @@ const geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Lean's Birthday Celebration - January 3, 2026",
-  description: "Celebrating Lean's 39th birthday on January 3, 2026",
+  description: "You are invited! Join us for Lean's 39th birthday celebration on January 3, 2026",
   generator: "v0.app",
+  openGraph: {
+    title: "Lean's Birthday Celebration",
+    description: "You are invited! Join us for Lean's 39th birthday celebration on January 3, 2026",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lean's Birthday Celebration",
+    description: "You are invited! Join us for Lean's 39th birthday celebration on January 3, 2026",
+  },
   icons: {
     icon: [
       {
